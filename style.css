@@ -7,7 +7,6 @@
     font-family: "Poppins";
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-    color: var(--Color-Normal);
 }
 
 :root{
@@ -19,3 +18,13 @@
     --Color-Basic: #7245FA;
     --Boder-Basic: #7245fa69;
 }
+
+
+
+.Gradient__Color{
+    width: 300px;
+    height: 150px;
+    border-radius: 7px;
+    background-image: linear-gradient(to left , #4c20d1 ,#0099ff);
+}
+
