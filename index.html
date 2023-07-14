@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,39 +12,55 @@
 </head>
 
 <body>
-    
+
 
     <main>
-        <div class="Gradient__Color"></div>
-        <div>
-            <div>
-                <h2 class="Direction__Title">Direction</h2>
-                <select id="Direction" >
-                    <option id="Top">Top</option>
-                    <option id="Right__Bottom">Right Bottom</option>
-                    <option id="Lef__Top">Left Top</option>
-                    <option id="Right">Right</option>
-                    <option id="Left__Bottom">Left Bottom</option>
-                    <option id="Bottom">Bottom</option>
-                    <option id="Right__Top">Right Top</option>
-                    <option id="Left">Left</option>
-                </select>
+        <div class="Center__Color">
+            <div class="Gradient__Color"></div>
+        </div>
+
+
+        <div class="Partre__Top">
+            <div class="Direction__Select">
+
+                <h2 class="Direction__Title">Direction :</h2>
+                <div class="Select_Box">
+                    <select id="Direction">
+                        <div>
+                            <option id="Left" value="Left">Left</option>
+                            <option id="Right__Bottom" value="Right Bottom">Right Bottom</option>
+                            <option id="Left__Top" value="Left Top">Left Top</option>
+                            <option id="Right" value="Right">Right</option>
+                            <option id="Left__Bottom" value="Left Bottom">Left Bottom</option>
+                            <option id="Bottom" value="Bottom">Bottom</option>
+                            <option id="Right__Top" value="Right Top">Right Top</option>
+                            <option id="Top" value="Top">Top</option>
+                        </div>
+
+                    </select>
+                </div>
+
+
             </div>
-            <div>
-                <h2 class="Colors__Title">Colors</h2>
+            <div class="Colors">
+
+                <h2 class="Colors__Title">Colors :</h2>
                 <input type="color" id="ColorN°1" value="#4c20d1">
-                <input type="color" id="ColorN°2" value="#0099ff">
+                <input type="color" id="ColorN°2" value="#ee00ff">
+
             </div>
+
         </div>
-        <div>
-            <p>background-image: linear-gradient(to <span>left</span>, <span>#4c20d1</span>, <span>#0099ff</span>);</p>
+        <div class="Code">
+            <p>background-image: linear-gradient(to <span class="direction">left</span>, <span class="color1Code">#4c20d1</span>, <span class="color2Code">#ee00ff</span>);</p>
         </div>
-        <div>
+
+        <div class="Buttons">
             <button id="Refresh__Colors">Refresh Colors</button>
             <button id="Copy__Code">Copy Code</button>
         </div>
-    </main>
 
+    </main>
 
     <script src="script.js"></script>
 

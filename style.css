@@ -7,6 +7,8 @@
     font-family: "Poppins";
     user-select: none;
     -webkit-tap-highlight-color: transparent;
+    color: var(--Color-Normal);
+    outline: none;
 }
 
 :root{
@@ -20,11 +22,116 @@
 }
 
 
-
-.Gradient__Color{
-    width: 300px;
-    height: 150px;
-    border-radius: 7px;
-    background-image: linear-gradient(to left , #4c20d1 ,#0099ff);
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--Color-main);
+    justify-content: center;
+    
 }
 
+
+
+
+main{
+    width: 400px;
+    background-color: var(--Bg-Button);
+    padding: 30px 25px;
+    border-radius: 7px;
+    border: 1px solid var(--Boder);
+    
+}
+
+.Gradient__Color{
+    width: 330px;
+    height: 190px;
+    border-radius: 7px;
+    background-image: linear-gradient(to left top , #4c20d1 ,#ee00ff);
+    
+}
+
+.Center__Color{
+    display: grid;
+    place-content: center;
+}
+
+.Partre__Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    background-color: var(--Bg-Button);
+    border: 1px solid var(--Boder);
+    padding: 12px 20px;
+    border-radius: 7px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Direction{
+    background-color: var(--Bg-Button);
+    font-size: 0.95rem;
+    border: 0;
+    cursor: pointer;
+}
+
+option{
+   margin-top: 10px; 
+   cursor: pointer;
+}
+
+.Select_Box{
+    width: fit-content;
+    padding: 10px;
+    background-color: var(--Bg-Button);
+    border: 1px solid var(--Boder);
+    border-radius: 7px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+h2{
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+input[type="color"]{
+    height: 34px;
+    width: 54px;
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+.Code{
+    max-width: 340px;
+    background-color: #8c00ff50;
+    border: 1px solid #8c00ff;
+    padding: 8px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+
+}
+
+#Copy__Code{
+    background-color: #8c00ff;
+    border: #8c00ff;
+}
+
+#Refresh__Colors:hover{
+    background-color: #8c00ff50;
+    border: 1px solid #8c00ff;
+}
