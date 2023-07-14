@@ -48,8 +48,7 @@ main{
     width: 330px;
     height: 190px;
     border-radius: 7px;
-    background-image: linear-gradient(to left top , #4c20d1 ,#ee00ff);
-    
+    background-image: linear-gradient(to left , #4c20d1 ,#ee00ff);
 }
 
 .Center__Color{
@@ -70,6 +69,7 @@ button{
     border-radius: 7px;
     font-size: 1rem;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 .Buttons{

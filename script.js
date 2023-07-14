@@ -33,3 +33,10 @@ Copy__Code.addEventListener("click",()=>{
     navigator.clipboard.writeText(code.textContent)
 })
 
+Refresh__Colors.addEventListener("click",()=>{
+    color1Code.textContent = "#"+Math.floor(Math.random() * 0xffffff).toString(16)
+    color2Code.textContent = "#"+Math.floor(Math.random() * 0xffffff).toString(16)
+    ColorN1.value = color1Code.textContent
+    ColorN2.value = color2Code.textContent
+    Gradient__Color.style.cssText = `${code.textContent}`
+})
