@@ -16,4 +16,3 @@
 ## CopyRight 
 ![image](https://github.com/MokatilDev/Gradient-Color-Generator/assets/115933192/e226c485-0a5d-4dd1-b6b4-b8ce1465dbcd)
  
-
